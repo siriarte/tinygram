@@ -50,6 +50,7 @@
                                 </li>
                             @endif
                         @else
+                            <a class="pr-4 pt-2" href="/profile/{{Auth::user()->id}}">My Profile</a>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->username }} <span class="caret"></span>
